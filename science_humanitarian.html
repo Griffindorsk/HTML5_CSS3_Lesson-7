@@ -1,68 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ФАКУЛЬТЕТ | Науки</title>
+    <title>Продлёнка | Науки</title>
     <link rel="stylesheet" href="normalize_my1.css">
-    <link rel="stylesheet" href="styles.css">
-    <!-- <link rel="stylesheet" href="menu_horizontal_v2_pure.css"> -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_multicolumns_v6_pure.css">
-    <link rel="stylesheet" href="menu_ver5_1.css">
+    <link rel="stylesheet" href="fonts/font_awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="frame_body">
-        <!-- все кроме футера -->
-        <div class="frame_main">
-            <!-- верхнее меню (начало) -->
-            <div class="top">
-                <input class="input_check" type="checkbox" id="check_menu">
-                <div class="logoplace">
-                    <img class="logo" src="images/logo.jpg" alt="картинка логотипа">
-                    <label for="check_menu"><img class="menu_icon" src="icons/menu_icon.svg" alt="иконка меню"></label>
-                </div>
-                <div class="menu_top">
-                    <p><a href="index.html">Главная</a></p>
-                    <p><a href="science_natural.html">Естественные</a></p>
-                    <p><a href="science_humanitarian.html">Гуманитарные</a></p>
-                    <p><a href="science_social.html">Общественные</a></p>
-                    <p><a href="science_technical.html">Технические</a></p>
-                </div>
-            </div><!-- верхнее меню (конец) -->
-            <div class="frame_middle">
-
-                <!-- КОНТЕНТ (начало) -->
-                <div class="multicolumns">
-
-                    <div class="column">
-                        <!-- каждый абзац с картинкой или видео должен быть обернут в column_subblock -->
-                        <div class="column_subblock">
-
-                            <p style="color: red;">Пожалуйста, немного терпения, мы еще работаем над этой страничкой!</p>
-
-                        </div>
-                        <div class="column_subblock">
-                            <h4></h4>
-                            <img class="#" src="#" alt="">
-                            <p></p>
+    <div class="centerline">
+        <div class="frame_body">
+            <!-- все кроме футера -->
+            <div class="frame_main">
+                <!-- верхнее меню (начало) -->
+                <!-- слайдер (начало) -->
+                <!-- <div class="scene_1">
+                    <input type="radio" name="scene_1_dots" id="scene_1_dot1">
+                    <input type="radio" name="scene_1_dots" id="scene_1_dot2">
+                    <input type="radio" name="scene_1_dots" id="scene_1_dot3" checked>
+                    <input type="radio" name="scene_1_dots" id="scene_1_dot4">
+                    <input type="radio" name="scene_1_dots" id="scene_1_dot5">
+                    <div class="scene_1_backstage">
+                        <div class="scene_1_stage scene_1_slide1"></div>
+                        <div class="scene_1_stage scene_1_slide2"></div>
+                        <div class="scene_1_stage scene_1_slide3"></div>
+                        <div class="scene_1_stage scene_1_slide4"></div>
+                        <div class="scene_1_stage scene_1_slide5"></div>
+                    </div>
+                    <div class="scene_1_highlighted"></div>
+                    <div class="scene_1_controls">
+                        <label for="scene_1_dot1"></label>
+                        <label for="scene_1_dot2"></label>
+                        <label for="scene_1_dot3"></label>
+                        <label for="scene_1_dot4"></label>
+                        <label for="scene_1_dot5"></label>
+                    </div>
+                </div> -->
+                <!-- слайдер (конец) -->
+                <section class="top withoutback">
+                    <div class="top_logo">
+                        <div class="atom">
+                            <div class="e_path e_angle90">
+                                <div class="ticker">
+                                    <div class="electron">
+                                        <p>e<sup>&macr;</sup></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="e_path e_angle30">
+                                <div class="ticker">
+                                    <div class="electron">
+                                        <p>e<sup>&macr;</sup></p>
+                                    </div>
+                                    <div class="electron spin">
+                                        <p>e<sup>&macr;</sup></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="e_path e_angle150">
+                                <div class="ticker">
+                                    <div class="electron">
+                                        <p>e<sup>&macr;</sup></p>
+                                    </div>
+                                    <div class="electron spin">
+                                        <p>e<sup>&macr;</sup></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nuclear">
+                                <div class="neutron move_s6"></div>
+                                <div class="neutron move_s4"></div>
+                                <div class="proton move_s1"></div>
+                                <div class="proton move_s2"></div>
+                                <div class="neutron move_s5"></div>
+                                <div class="proton move_s3"></div>
+                                <div class="neutron move_s7"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="top_other">
+                        <div class="top_aux">
+                            <form class="main_search" action="#" method="POST">
+                                <input type="search" name="header_search">
+                                <button></button>
+                            </form>
+                        </div>
+                        <input class="input_check" type="checkbox" id="check_menu">
+                        <nav class="mobile_nav">
+                            <label for="check_menu"><img class="menu_icon" src="icons/menu_icon_white.svg"
+                                    alt="иконка меню"></label>
+                        </nav>
+                        <nav class="menu_nav">
+                            <div class="menu_section_home">
+                                <p><a href="index.html">ГЛАВНАЯ</a></p>
+                            </div>
+                            <div class="menu_section_zero">
+                                <header class="menu_section_one">
+                                    <p>НАУКИ</p>
+                                </header>
+                                <div class="menu_section_two">
+                                    <p><a href="science_natural.html">Естественные</a></p>
+                                    <p><a href="science_humanitarian.html">Гуманитарные</a></p>
+                                    <p><a href="science_social.html">Общественные</a></p>
+                                    <p><a href="science_technical.html">Технические</a></p>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </section><!-- верхнее меню (конец) -->
 
-                <!-- КОНТЕНТ (конец) -->
+                <!-- <div class="frame_middle"> -->
+
+                <div class="multicolumns">
+                    <div class="column">
+                        <div class="column_subblock">
+                            <p style="color: red;">Пожалуйста, немного терпения, мы еще работаем над этой страничкой!
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
             </div>
 
-
+            <footer class="footer">
+                <p class="footer_text">Продлёнка<sup>&trade;</sup> Все права защищены 2021&nbsp;&copy</p>
+            </footer>
         </div>
-
-        <!-- футер (начало) -->
-        <div class="footer">
-            <p class="footer_text">Факультет.рф<sup>&trade;</sup> Все права защищены 2021<sup>&trade;</sup></p>
-        </div>
-        <!-- футер (конец) -->
     </div>
 </body>
 

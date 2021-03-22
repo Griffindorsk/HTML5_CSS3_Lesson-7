@@ -190,6 +190,11 @@
     display: flex;
     /* background-image: url('images/menu_background.jpg'); */
 }
+.withoutback {
+    height: unset;
+    background: rgb(124, 218, 255);
+    padding-bottom: 0.4rem;
+}
 .top_logo {
     margin-top: 1vh;
 }
