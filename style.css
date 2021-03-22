@@ -354,18 +354,16 @@
 }
 /* верхнее меню (конец)*/
 
-
-
-/* .frame_middle {
+.frame_middle {
     display: flex;
     flex-direction: row;
-    width: 97vw;
+    width: inherit;
     margin: 0 auto;
-} */
-/* .frame_menu_side {
+}
+.frame_menu_side {
     width: 300px;
     margin-right: 12px;
-} */
+}
 
 .main_content {
     width: 100%;

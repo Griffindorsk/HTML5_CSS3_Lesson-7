@@ -1,7 +1,7 @@
 /* оформление мультиколоночного блока (начало) */
 .multicolumns {
     display: flex;
-    width: 97vw;
+    /* width: 97vw; */
     max-width: 1260px;
     margin: 0 auto;
     margin-bottom: 1vh;
