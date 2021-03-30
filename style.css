@@ -1,9 +1,9 @@
- @font-face {
+/* @font-face {
     font-family: 'Oswald', sans-serif;
     src: url(/fonts/Oswald/static/Oswald-SemiBold.ttf);
     font-weight: bold;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'FontAwesome', sans-serif;
