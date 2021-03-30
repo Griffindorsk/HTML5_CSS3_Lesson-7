@@ -10,6 +10,7 @@
     color: rgb(1, 62, 80);
     font-size: 0.8rem;
     line-height: 1.4rem;
+    z-index: 1;
 }
 .multicolumns p {
     line-height: 1.1rem;
@@ -45,7 +46,8 @@
     padding: 0 1vw;
     margin-right: 0.8vw;
     margin-bottom: 1vh;
-    background-color: #f1f7f8;
+    background-color: #f1f7f89d;
+    z-index: 0;
 }
 .column:last-of-type {
     margin-right: 0;

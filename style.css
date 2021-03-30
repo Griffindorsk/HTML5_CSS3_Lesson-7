@@ -1,15 +1,9 @@
-@font-face {
-    font-family: 'Ranchers', sans-serif;
-    src: url(fonts/Ranchers-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
- @font-face {
+ /* @font-face {
     font-family: 'Oswald', sans-serif;
     src: url(/fonts/Oswald/static/Oswald-SemiBold.ttf);
     font-weight: bold;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'FontAwesome', sans-serif;
@@ -68,6 +62,7 @@
 .scene_1_controls {
     position: absolute;
     bottom: 16px;
+    /* top: 16px; */
     left: 50%;
     margin-left: -40px;
     z-index: 3;
@@ -75,6 +70,7 @@
 .scene_1_highlighted {
     position: absolute;
     bottom: 10px;
+    /* top: 8px; */
     left: 50%;
     margin-left: -60px;
     width: 150px;
@@ -116,6 +112,10 @@
 }
 /* форматирование 1-го слайдера (конец) */
 
+.coverstyle {
+    border-radius: 1vw;
+}
+
 /* форматирование фоновой видеопрезентации (начало) */
 .videostage {
     height: 100vh;
@@ -141,17 +141,23 @@
 
 .main_search {
     display: flex;
-    width: 200px;
+    justify-content: right;
+    /* width: 200px; */
+    max-width: 40vw;
     height: 24px;
     margin: 4px;
-    padding-right: 30px;
+    /* padding-right: 30px; */
+     padding-right: 10px;
 }
 .main_search input {
     align-items: center;
+    /* display: flex;
+    justify-self: right; */
     border: none;
     border-radius: 3px;
     line-height: 2rem;
     font-size: 1rem;
+    width: 80%;
 }
 .main_search button {
     background: none;
@@ -188,11 +194,11 @@
     height: 100vh;
     margin: 0 auto;
     display: flex;
-    /* background-image: url('images/menu_background.jpg'); */
 }
 .withoutback {
     height: unset;
-    background: rgb(124, 218, 255);
+    /* background: rgb(124, 218, 255); */
+    background-image: url('images/chemistry_lab1_1.jpg');
     padding-bottom: 0.4rem;
 }
 .top_logo {
@@ -207,6 +213,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-right: 3vw;
 }
 .top_aux {
     display: flex;
@@ -246,7 +253,7 @@
 }
 .menu_nav a {
     display: block;
-    font-family: 'Oswald';
+    /* font-family: 'Oswald'; */
     font-size: 1rem;
     /* font-weight: normal; */
     font-weight: bold;
@@ -274,7 +281,7 @@
 }
 .menu_section_one {
     opacity: 0.9;
-    font-family: 'Hind';
+    /* font-family: 'Hind'; */
 }
 .menu_section_one p {
     font-size: 1.4rem;
@@ -285,6 +292,7 @@
 .menu_section_two {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 600px;
     justify-content: space-between;
@@ -350,6 +358,9 @@
 @media (max-width: 419px) {
     .frame_main {
     width: 94vw;
+    }
+    .multicolumns .temp_contacts .temp_networks {
+    justify-content: center;
     }
 }
 /* верхнее меню (конец)*/
@@ -463,9 +474,7 @@
     }
 
     /* адреса и формы (начало) */
-    .temp_networks {
-        text-align: center;
-    }
+
     .multicolumns .temp_contacts p,
     .multicolumns .temp_contacts h4,
     .multicolumns .temp_contacts h3 {
@@ -500,7 +509,7 @@
     position: relative;
     transform-origin: 50% 50%;
     width: 20vw;
-    height: 20vw;
+    height: 22vw;
     margin: 0 1vw 0.5vh 0;
     float: left;
 }
